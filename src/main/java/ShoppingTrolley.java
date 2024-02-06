@@ -18,4 +18,8 @@ public class ShoppingTrolley {
     public int countTrolley(){
         return chart.size();
     }
+
+    public boolean checkItem(String item){
+        return chart.contains(item);
+    }
 }

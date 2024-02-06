@@ -66,8 +66,8 @@ public class Runner {
         System.out.println("The trolley contains " + itemCount + " items.");
 
         // 4. Check if an item is in the trolley
-//        boolean itemInTrolley = <CALL YOUR METHOD HERE>;
-//        System.out.println("Object is a square (true/false): " + itemInTrolley);
+        boolean itemInTrolley = trolley.checkItem("Milk");
+        System.out.println("Is item is in trolley ?: " + itemInTrolley);
     }
 
 
