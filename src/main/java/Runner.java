@@ -60,9 +60,10 @@ public class Runner {
         // 2. Add an item to the trolley
         trolley.addItem("Milk");
         System.out.println(trolley.getTrolley());
+
         // 3. Count items in the trolley
-//        int itemCount = <CALL YOUR METHOD HERE>;
-//        System.out.println("The trolley contains " + itemCount + " items.");
+        int itemCount = trolley.countTrolley();
+        System.out.println("The trolley contains " + itemCount + " items.");
 
         // 4. Check if an item is in the trolley
 //        boolean itemInTrolley = <CALL YOUR METHOD HERE>;

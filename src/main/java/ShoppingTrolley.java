@@ -14,4 +14,8 @@ public class ShoppingTrolley {
     public ArrayList<String> getTrolley() {
         return chart;
     }
+
+    public int countTrolley(){
+        return chart.size();
+    }
 }
