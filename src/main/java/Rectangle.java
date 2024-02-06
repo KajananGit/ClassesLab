@@ -7,8 +7,12 @@ public class Rectangle {
         this.width = width;
     }
 
-    public void calculateArea(int length, int width){
-        int area = length * width;
+    public int calculateArea(){
+        return length * width;
+    }
+
+    public boolean isRectangle(){
+        return length == width;
     }
 
 
