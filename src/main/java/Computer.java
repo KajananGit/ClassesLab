@@ -24,4 +24,8 @@ public class Computer {
     public void addStorage(int xStorage){
         this.storage += xStorage;
     }
+
+    public void printMessage(String message){
+        System.out.println(message);
+    }
 }
