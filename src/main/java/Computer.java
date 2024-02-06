@@ -8,4 +8,8 @@ public class Computer {
         this.storage = storage;
         this.isConncected = false;
     }
+
+    public int getStorage(){
+        return this.storage;
+    }
 }
